@@ -6,7 +6,9 @@ I did these exercises in ipython.  I am currently using [miniconda](http://conda
 
 
 `conda create --name snakes python=3`
+
 `source activate snakes`
+
 `conda install ipython`
 
 My python version is:
