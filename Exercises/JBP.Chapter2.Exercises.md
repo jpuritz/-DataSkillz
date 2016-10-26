@@ -1,5 +1,22 @@
 ##Chapter 2 Exercises
 
+###Computing environment
+
+I did these exercises in ipython.  I am currently using [miniconda](http://conda.pydata.org/miniconda.html) to manage my computing environments.
+
+
+`conda create --name snakes python=3`
+`source activate snakes`
+`conda install ipython`
+
+My python version is:
+
+`python --version`
+```
+Python 3.5.2 :: Continuum Analytics, Inc.
+```
+
+
 ##Ex.1 Calculating AT content
 Here's a short DNA sequence:
 `ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT`
