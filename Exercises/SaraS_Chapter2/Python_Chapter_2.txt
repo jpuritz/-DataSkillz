@@ -1,0 +1,67 @@
+my_dna = "ATGCGTA"
+my_dna
+# 'ATGCGTA'
+
+print(my_dna)
+# ATGCGTA
+
+len(my_dna)
+# 7
+
+my_dna_len = str(len(my_dna))
+dna_length = my_dna + my_dna_len
+print(dna_length)
+# ATGCGTA7
+
+print(dna_length.lower())
+# atgcgta7
+
+protein = "vlspadktnv"
+print(protein.replace("v", "y"))
+# ylspadktny
+
+print(protein.replace("vls", "ymt"))
+# ymtpadktnv
+
+print(protein)
+# vlspadktnv
+
+print(protein)
+# vlspadktnv
+
+new_protein = print(protein.replace("vls", "ymt"))
+# ymtpadktnv
+
+print(new_protein)
+# None
+
+new_protein = protein.replace("vls", "ymt")
+new_protein
+# 'ymtpadktnv'
+
+first_residue = protein[0]
+print(first_residue)
+# v
+
+valine_count = protein.count('v')
+lsp_count = protein.count('lsp')
+tryp_count = protein.count('w')
+
+print("valines: " + str(valine_count))
+# valines: 2
+
+print("lsp: " + str(lsp_count))
+# lsp: 1
+
+print("tryp: " + str(tryp_count))
+# tryp: 0
+
+print(str(protein.find('p')))
+# 3
+
+print(str(protein.find('kt'))) # gives first point, in the case position of k
+# 6
+
+print(str(protein.find('w'))) # because w does not exist it gets a -1
+# -1
+
